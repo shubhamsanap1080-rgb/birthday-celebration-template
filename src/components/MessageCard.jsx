@@ -13,9 +13,10 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `[Soni],
 
-Your personalized birthday message goes here.
+The shortest poem i know is 'SONI' I hope this year brings you peace, smiles, and everything your heart wishes for.
+Stay the beautiful soul you are ✨
 
 You can write multiple paragraphs to express your feelings,
 share memories, and make this special day even more memorable.
@@ -25,7 +26,7 @@ so feel free to customize it completely to fit your style.
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— [Shubham]`;
 
   // Handle page transitions
   useEffect(() => {
